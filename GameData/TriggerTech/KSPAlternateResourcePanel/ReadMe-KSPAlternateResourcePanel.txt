@@ -1,4 +1,4 @@
-Alternate Resource Panel - 2.4.2.0
+Alternate Resource Panel - 2.5.0.0
 ----------------------------------
 An Alternate display of resources in whole vessel and current stage
 
@@ -14,7 +14,7 @@ IF YOU WANT TO MAINTAIN YOUR SETTINGS DO NOT COPY THE CONFIG.XML FILE OVER
 
 Installing the plugin involves copying the plugin files into the correct location in the KSP aplication folder
 1. Extract the Zip file you have downloaded to a temporary Location
-2. Open the Extracted folder structure and open the KSPAlternateResourcePanel_v2.4.2.0 Folder
+2. Open the Extracted folder structure and open the KSPAlternateResourcePanel_v2.5.0.0 Folder
 3. Inside this you will find a GameData folder which contains all the content you will need
 4. Open another window to your KSP application folder - We'll call this <KSP_OS>
 5. Copy the Contents of the extracted GameData folder to the <KSP_OS>\GameData Folder
@@ -28,9 +28,23 @@ LICENSE
 Licensed under Creative Commons Attribution-NonCommercial-Sharealike 3.0 Unported License. Visit the documentation site for more details and Attribution
 
 VERSION HISTORY
+Version 2.5.0.0        -    KSP Version: 0.24.2
+- Fixed issue where basic button position triggers hover (Issue #40)
+- Changed default button behaviour for new installs - now App Launcher button (Issue#39)
+- Added App Launcher Button Exclusivity as an option (Issue #41)
+- Added Window Movement Detection code and saving position after moves (Issue #42)
+- Updated and added icons for a nubmer of packs (Issue #27 and Issue #22)
+- Added option for replacing Stock Resources App (Issue #8)
+
+Note: Changing the button type when the AppLauncher is involved may require a scene change for everything to settle to the right state. There is a note in game when this is the case
+
+Version 2.4.3.0        -    KSP Version: 0.24.2
+- Compiled against 0.24 binaries
+- Mad Resource Display Mutually exclusive to other apps (Issue #37)
+
 Version 2.4.2.0        -    KSP Version: 0.24.0
-- Fixed issue caused by overzealous commenting syndrome in previous release (Fixes #36)
-- Changed AppLauncher Icon to be more visible (Fixes #35)
+- Fixed issue caused by overzealous commenting syndrome in previous release (Issue #36)
+- Changed AppLauncher Icon to be more visible (Issue #35)
 
 Version 2.4.1.0        -    KSP Version: 0.24.0
 - Fixed issue with AppLauncher button not displaying in MapView (Issue #32)
